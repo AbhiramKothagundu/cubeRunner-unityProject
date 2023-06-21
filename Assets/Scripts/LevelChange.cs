@@ -12,6 +12,6 @@ public class LevelChange : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        }
+        }//loads the Next Scene if Collides the player
     }
 }
